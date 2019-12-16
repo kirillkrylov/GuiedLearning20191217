@@ -5,6 +5,7 @@ using Terrasoft.Core.Entities.AsyncOperations.Interfaces;
 using Terrasoft.Core.Entities;
 using Terrasoft.Core.Entities.Events;
 using Terrasoft.Core.Factories;
+using global::Common.Logging;
 
 namespace GuidedLearningClio.Files.cs.el
 {
@@ -26,19 +27,21 @@ namespace GuidedLearningClio.Files.cs.el
 
         #region Fields
 
-        #region Fileds : Private
+        #region Fields : Private
+        private static readonly ILog _log = LogManager.GetLogger("GuidedLearningLogger");
+
         #endregion
 
-        #region Fileds : Protected
+        #region Fields : Protected
         #endregion
 
-        #region Fileds : Internal
+        #region Fields : Internal
         #endregion
 
-        #region Fileds : Protected Internal
+        #region Fields : Protected Internal
         #endregion
 
-        #region Fileds : Public
+        #region Fields : Public
         #endregion
 
         #endregion
@@ -85,6 +88,9 @@ namespace GuidedLearningClio.Files.cs.el
             base.OnSaved(sender, e);
             Entity entity = (Entity)sender;
             UserConnection userConnection = entity.UserConnection;
+            
+            string message = $"Changing name for {entity.GetTypedColumnValue<string>("Name")}";
+            _log.Info(message);
         }
         #endregion
 

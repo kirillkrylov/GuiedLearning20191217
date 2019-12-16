@@ -3,7 +3,15 @@
 This is a training project for the Guided Learning class of Dec 17-20, 2019
 
 ## Agenda
+-- Convert Creatio to development in FileSystem Mode. Update 
+- [FSM](https://academy.creatio.com/documents/technic-sdk/7-15/introduction-9)
+Update [AppPath]\web.config file
+```xml
+<fileDesignMode enabled="true"/>
+<add key="UseStaticFileContent" value="false" />
+```
 
+- [IsDebug](https://academy.creatio.com/documents/technic-sdk/7-15/isdebug-mode) - Used to get additional debugging info.
 
 
 ## Tools
