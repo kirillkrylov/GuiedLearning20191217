@@ -22,7 +22,7 @@ This is a training project for the Guided Learning class of Dec 17-20, 2019
 <br/>
 ![IsDebug](Img/IsDebug.png)
 
-- Configure Custom Logging with NLog
+### Configure Custom Logging with NLog
 To Configure custom logging **update nlog.config** and **nlog.targets.config**. Both files are located in [AppPath]\Terrasoft.WebApp
 
 Add the following to **nlog.config** file:
