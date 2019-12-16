@@ -40,6 +40,7 @@ Add the following to the **nlog.target.config** file
 - [Logging](https://academy.creatio.com/documents/technic-sdk/7-15/logging-creatio-nlog) - Logging
 
 ### Set First Break Point
+- Add reference to Common.Logging, you can take necessary files from [AppPath]\bin directory.
 - Create EntityNameEventListener Class and set a breakpoint anywhere inside onSaved method.
 
 ```C#
