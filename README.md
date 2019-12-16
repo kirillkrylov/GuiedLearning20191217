@@ -35,7 +35,6 @@ Add the following to the **nlog.target.config** file
 	layout="${Date} [${ThreadIdOrName}] ${uppercase:${level}} ${UserName} ${MethodName} - ${Message}"
 	fileName="${LogDir}/${LogDay}/GuidedLearning.log" />
 ```
-<br />
 - [Academy Article](https://academy.creatio.com/documents/technic-sdk/7-15/introduction-9) - Enable File System Mode
 - [IsDebug](https://academy.creatio.com/documents/technic-sdk/7-15/isdebug-mode) - Used to get additional debugging info.
 
