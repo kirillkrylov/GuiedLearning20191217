@@ -42,7 +42,6 @@ Add the following to the **nlog.target.config** file
 ### Set First Break Point
 - Add reference to Common.Logging, you can take necessary files from [AppPath]\bin directory.
 - Create EntityNameEventListener Class and set a breakpoint anywhere inside onSaved method.
-
 ```C#
 using global::Common.Logging;
 using Terrasoft.Core;
@@ -70,6 +69,10 @@ namespace GuidedLearningClio.Files.cs.el
         }
     }
 }
+```
+- Build your project / solution and use clio to restart the app
+```text
+clio restart -e NameOfYourEnvironment
 ```
 
 
