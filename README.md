@@ -3,26 +3,50 @@
 This is a training project for the Guided Learning class of Dec 17-20, 2019
 
 ## Agenda
+- Convert Creatio to development in FileSystem Mode
+- Configure Clio (restore NuGet packages)
+- Configure NLog
+- Set first Breakpoint
 
 ### Convert Creatio to development in FileSystem Mode. 
-
-- Step 1 - Update [AppPath]\web.config file
+- Update [AppPath]\web.config file
 ```xml
 <fileDesignMode enabled="true"/>
 <add key="UseStaticFileContent" value="false" />
 ```
-- Step 2 - Download packages to file system<br/>
+- Download packages to file system <br/>
 ![Download Packages To FileSystem](Img/confguration_buttons.png)
 
-- Step 3 - Enable Debugging mode for client side source code 
+- Enable Debugging mode for client side source code <br/>
+<br/>
 ![IsDebug Icons](Img/IsDebug.png)
 
-<br/>
+- Configure Custom Logging with NLog
+To Configure custom logging **update nlog.config** and **nlog.targets.config**. Both files are located in [AppPath]\Terrasoft.WebApp
+
+-- Add the following to nlog.config file
+```XML
+<logger name="GuidedLearningLogger" writeTo="GuidedLearningAppender" minlevel="Info" final="true" />
+```
+-- Add the following to the nlog.target.config
+```XML
+<target name="GuidedLearningAppender" xsi:type="File"
+	layout="${Date} [${ThreadIdOrName}] ${uppercase:${level}} ${UserName} ${MethodName} - ${Message}"
+	fileName="${LogDir}/${LogDay}/GuidedLearning.log" />
+```
 
 
 
-[Academy Article](https://academy.creatio.com/documents/technic-sdk/7-15/introduction-9) - Enable File System Mode
-[IsDebug](https://academy.creatio.com/documents/technic-sdk/7-15/isdebug-mode) - Used to get additional debugging info.
+<br />
+- [Academy Article](https://academy.creatio.com/documents/technic-sdk/7-15/introduction-9) - Enable File System Mode
+- [IsDebug](https://academy.creatio.com/documents/technic-sdk/7-15/isdebug-mode) - Used to get additional debugging info.
+
+
+
+
+### Set First Break Point
+
+
 
 ## Tools
 - [Clio](https://github.com/Advance-Technologies-Foundation/clio) - CLI Library to create packages.
