@@ -16,11 +16,11 @@ This is a training project for the Guided Learning class of Dec 17-20, 2019
 ```
 
 - Download packages to file system <br/>
-[![Download Packages To FileSystem](Img/confguration_buttons.png)]
+![Download Packages To FileSystem](Img/confguration_buttons.png)
 
 - Enable Debugging mode for client side source code <br/>
 <br/>
-![IsDebug Icons](Img/IsDebug.png)
+![IsDebug](Img/IsDebug.png)
 
 - Configure Custom Logging with NLog
 To Configure custom logging **update nlog.config** and **nlog.targets.config**. Both files are located in [AppPath]\Terrasoft.WebApp
