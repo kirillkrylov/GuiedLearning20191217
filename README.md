@@ -12,10 +12,10 @@ This is a training project for the Guided Learning class of Dec 17-20, 2019
 <add key="UseStaticFileContent" value="false" />
 ```
 - Step 2 - Download packages to file system<br/>
-[ScreenShot](Img/confguration_buttons.png)
+![Download Packages To FileSystem](Img/confguration_buttons.png)
 
 - Step 3 - Enable Debugging mode for client side source code 
-[ScreenShot](Img/IsDebug.png)
+![IsDebug Icons](Img/IsDebug.png)
 
 <br/>
 
