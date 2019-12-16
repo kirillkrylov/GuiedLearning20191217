@@ -14,8 +14,9 @@ This is a training project for the Guided Learning class of Dec 17-20, 2019
 <fileDesignMode enabled="true"/>
 <add key="UseStaticFileContent" value="false" />
 ```
+
 - Download packages to file system <br/>
-![Download Packages To FileSystem](Img/confguration_buttons.png)
+[![Download Packages To FileSystem](Img/confguration_buttons.png)]
 
 - Enable Debugging mode for client side source code <br/>
 <br/>
@@ -24,19 +25,17 @@ This is a training project for the Guided Learning class of Dec 17-20, 2019
 - Configure Custom Logging with NLog
 To Configure custom logging **update nlog.config** and **nlog.targets.config**. Both files are located in [AppPath]\Terrasoft.WebApp
 
--- Add the following to nlog.config file
-```XML
+Add the following to **nlog.config** file:
+```xml
 <logger name="GuidedLearningLogger" writeTo="GuidedLearningAppender" minlevel="Info" final="true" />
 ```
--- Add the following to the nlog.target.config
-```XML
+
+Add the following to the **nlog.target.config** file
+```xml
 <target name="GuidedLearningAppender" xsi:type="File"
 	layout="${Date} [${ThreadIdOrName}] ${uppercase:${level}} ${UserName} ${MethodName} - ${Message}"
 	fileName="${LogDir}/${LogDay}/GuidedLearning.log" />
 ```
-
-
-
 <br />
 - [Academy Article](https://academy.creatio.com/documents/technic-sdk/7-15/introduction-9) - Enable File System Mode
 - [IsDebug](https://academy.creatio.com/documents/technic-sdk/7-15/isdebug-mode) - Used to get additional debugging info.
