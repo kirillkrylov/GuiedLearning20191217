@@ -18,7 +18,7 @@ This is a training project for the Guided Learning class of Dec 17-20, 2019
 ![Download Packages To FileSystem](Img/confguration_buttons.png)
 
 - Enable Debugging mode for client side source code. Change SystemSetting Debug mode (code: IsDebug) to true<br/>
-![EnableDebug] (Img/EnableDebug.png)
+![EnableDebug](Img/EnableDebug.png)
 ![IsDebug](Img/IsDebug.png)
 
 ### Configure Custom Logging with NLog
