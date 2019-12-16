@@ -145,6 +145,7 @@
     <Content Include="Assemblies\**\*.*" />
     <Content Include="Data\**\*.*" />
     <Content Include="Img\confguration_buttons.png" />
+    <Content Include="Img\EnableDebug.png" />
     <Content Include="Img\IsDebug.png" />
     <Content Include="Resources\**\*.*" />
     <Content Include="Schemas\**\*.*" />

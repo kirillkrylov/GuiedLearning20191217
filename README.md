@@ -14,11 +14,11 @@ This is a training project for the Guided Learning class of Dec 17-20, 2019
 <fileDesignMode enabled="true"/>
 <add key="UseStaticFileContent" value="false" />
 ```
-
 - Download packages to file system <br/>
 ![Download Packages To FileSystem](Img/confguration_buttons.png)
 
-- Enable Debugging mode for client side source code <br/>
+- Enable Debugging mode for client side source code. Change SystemSetting Debug mode (code: IsDebug) to true<br/>
+![EnableDebug] (Img/EnableDebug.png)
 ![IsDebug](Img/IsDebug.png)
 
 ### Configure Custom Logging with NLog
@@ -35,6 +35,7 @@ Add the following to the **nlog.target.config** file
 	layout="${Date} [${ThreadIdOrName}] ${uppercase:${level}} ${UserName} ${MethodName} - ${Message}"
 	fileName="${LogDir}/${LogDay}/GuidedLearning.log" />
 ```
+
 - [Academy Article](https://academy.creatio.com/documents/technic-sdk/7-15/introduction-9) - Enable File System Mode
 - [IsDebug](https://academy.creatio.com/documents/technic-sdk/7-15/isdebug-mode) - Used to get additional debugging info.
 
