@@ -144,6 +144,7 @@
   <ItemGroup>
     <Content Include="Assemblies\**\*.*" />
     <Content Include="Data\**\*.*" />
+    <Content Include="Img\confguration_buttons.png" />
     <Content Include="Resources\**\*.*" />
     <Content Include="Schemas\**\*.*" />
     <Content Include="SqlScripts\**\*.*" />

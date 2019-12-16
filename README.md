@@ -12,7 +12,7 @@ This is a training project for the Guided Learning class of Dec 17-20, 2019
 <add key="UseStaticFileContent" value="false" />
 ```
 - Step 2 - Download packages to file system
-![ScreenShot](https://academy.creatio.com/sites/default/files/documents/docs_en/technic/SDK/7.15.0/Screenshots/WorkingWithIDE/confguration_buttons.png)
+![ScreenShot](Img/confguration_buttons.png)
 
 - Step 3 - Enable Debugging mode for client side source code <br/>
 [Academy Article](https://academy.creatio.com/documents/technic-sdk/7-15/introduction-9) - Enable File System Mode
