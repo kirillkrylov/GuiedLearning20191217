@@ -89,7 +89,7 @@ namespace GuidedLearningClio.Files.cs.el
             Entity entity = (Entity)sender;
             UserConnection userConnection = entity.UserConnection;
             
-            string message = $"Changing name for {entity.GetTypedColumnValue<string>("Name")}";
+            string message = $"Changing name for - {entity.GetTypedColumnValue<string>("Name")}";
             _log.Info(message);
         }
         #endregion
