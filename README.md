@@ -1,5 +1,5 @@
 [![Logo](https://www.creatio.com/sites/default/files/2019-10/creatio-main-logo.svg)](https://github.com/sindresorhus/awesome#readme)
-# Creatio Guided Learning Dec 18-20, 2019  
+# Creatio Guided Learning Dec 17-20, 2019  
 This is a training project for the Guided Learning class of Dec 17-20, 2019
 
 ## Agenda
@@ -90,3 +90,5 @@ clio restart -e NameOfYourEnvironment
 <a href="mailto:k.krylov@creatio.com?subject=Guided%20Learning%20Dec%2017-20,%202019">Kirill Krylov, CPA</a><br />
 Direct Line: +1(617)765-7997 x.2134
 
+## Video Recordings
+- [Day 1](https://api.zoom.us/recording/play/glcXJhmUpI0t2sQ-0IHPYWZcra2yXKqnyg6j2etJ5LHL71xpipGmebR-uUKD1nyK)
