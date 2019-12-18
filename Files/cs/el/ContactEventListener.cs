@@ -7,7 +7,7 @@ using Terrasoft.Core.Entities.Events;
 using Terrasoft.Core.Factories;
 using global::Common.Logging;
 
-namespace GuidedLearningClio.Files.cs.el
+namespace GuidedLearningClio
 {
     /// <summary>
     /// Listener for 'EntityName' entity events.
@@ -88,7 +88,7 @@ namespace GuidedLearningClio.Files.cs.el
             base.OnSaved(sender, e);
             Entity entity = (Entity)sender;
             UserConnection userConnection = entity.UserConnection;
-            
+
             string message = $"Changing name for - {entity.GetTypedColumnValue<string>("Name")}";
             _log.Info(message);
         }

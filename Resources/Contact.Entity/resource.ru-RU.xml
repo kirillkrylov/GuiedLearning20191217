@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="EventsProcessSchema.BaseElements.AfterContactSaved.Caption" Value="AfterContactSaved" />
+			<Item Name="EventsProcessSchema.BaseElements.AfterContactSavedScriptTask.Caption" Value="AfterContactSavedScriptTask" />
+			<Item Name="EventsProcessSchema.BaseElements.AfterContactSavedSubProcess.Caption" Value="AfterContactSavedSubProcess" />
+			<Item Name="EventsProcessSchema.BaseElements.BeforeContactSaving.Caption" Value="BeforeContactSaving" />
+			<Item Name="EventsProcessSchema.BaseElements.BeforeContactSavingScriptTask.Caption" Value="BeforeContactSavingScriptTask" />
+			<Item Name="EventsProcessSchema.BaseElements.BeforeContactSavingScriptTaskSubProcess.Caption" Value="BeforeContactSavingScriptTaskSubProcess" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.ChildEntitySchemaUId.Caption" Value="Подчиненный объект" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.DefaultValues.Caption" Value="Значения по умолчанию для колонок подчиненного объекта" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.DeletingFilters.Caption" Value="Фильтр удаления записей" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.MappingColumns.Caption" Value="Связь между колонками родительского и подчиненного объектов" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.MultiRowsSearchFilters.Caption" Value="Фильтр выбора нескольких строк" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.RequiredAllFields.Caption" Value="Все поля обязательны" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.RequiredFields.Caption" Value="Обязательные поля дочернего объекта" />
+			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.SingleRowSearchFilters.Caption" Value="Фильтр выбора одной строки" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1.Caption" Value="Пул 1" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Дорожка 1" />
+			<Item Name="EventsProcessSchema.Parameters.PhotoHasChanged.Caption" Value="PhotoHasChanged" />
+		</Items>
+	</Group>
+</Resources>

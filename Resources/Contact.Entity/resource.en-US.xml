@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.UsrMyNumber.Caption" Value="MyNumber" />
+			<Item Name="EventsProcessSchema.BaseElements.ConditionalSequenceFlow1_6c6eef348b09417da6cc323ac445bc7b.Caption" Value="Code is Empty" />
+			<Item Name="EventsProcessSchema.BaseElements.EventSubProcess3_a59474e1dbae4c878d3419faccd4f12a.Caption" Value="ContactInserting" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptTask1.Caption" Value="Get entity schema to generate number" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptTask2.Caption" Value="Save Number to Entity Column" />
+			<Item Name="EventsProcessSchema.BaseElements.StartMessage3_574fa3364e374af5b968440a8857c5c6.Caption" Value="ContactInserting" />
+			<Item Name="EventsProcessSchema.BaseElements.UserTask1.Caption" Value="Generate ordinal number" />
+			<Item Name="EventsProcessSchema.BaseElements.UserTask1.Parameters.EntitySchema.Caption" Value="EntitySchema" />
+			<Item Name="EventsProcessSchema.BaseElements.UserTask1.Parameters.ResultCode.Caption" Value="ResultCode" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_0857d69b458a4c3abe709974dcb94d66.Caption" Value="LaneSet 1" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_0857d69b458a4c3abe709974dcb94d66.Lanes.Lane_44acd9728f284634ab5167179ab59104.Caption" Value="Lane 1" />
+		</Items>
+	</Group>
+</Resources>
