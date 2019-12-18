@@ -9,7 +9,7 @@ using global::Common.Logging;
 using Terrasoft.Core.DB;
 using System.Data;
 
-namespace GuidedLearningClio.Files.cs.el
+namespace GuidedLearningClio
 {
     /// <summary>
     /// Listener for 'EntityName' entity events.
@@ -178,8 +178,12 @@ namespace GuidedLearningClio.Files.cs.el
         {
             base.OnInserting(sender, e);
             Entity entity = (Entity)sender;
-            if (CountOverlapingActivity(entity) != 0 || CountOverlapingActivityEsq(entity) != 0)
+            if (CountOverlapingActivity(entity) != 0 || CountOverlapingActivityEsq(entity) != 0) 
+            {
                 e.IsCanceled = true;
+                MsgChannelUtilities.PostMessage(entity.UserConnection, this.ToString(), "Canceled insert due to overlapping activities");
+            }
+                
         }
               
         public override void OnUpdating(object sender, EntityBeforeEventArgs e)

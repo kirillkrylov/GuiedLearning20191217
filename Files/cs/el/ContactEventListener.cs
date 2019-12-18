@@ -77,17 +77,17 @@ namespace GuidedLearningClio
         #region Methods : Public
 
         #region Methods : Public : OnSave
-        public override void OnSaving(object sender, EntityBeforeEventArgs e)
-        {
-            base.OnSaving(sender, e);
-            Entity entity = (Entity)sender;
-            UserConnection userConnection = entity.UserConnection;
-        }
+        //public override void OnSaving(object sender, EntityBeforeEventArgs e)
+        //{
+        //    base.OnSaving(sender, e);
+        //    Entity entity = (Entity)sender;
+        //    UserConnection userConnection = entity.UserConnection;
+        //}
         public override void OnSaved(object sender, EntityAfterEventArgs e)
         {
             base.OnSaved(sender, e);
             Entity entity = (Entity)sender;
-            UserConnection userConnection = entity.UserConnection;
+            //UserConnection userConnection = entity.UserConnection;
 
             string message = $"Changing name for - {entity.GetTypedColumnValue<string>("Name")}";
             _log.Info(message);
@@ -98,45 +98,45 @@ namespace GuidedLearningClio
         public override void OnInserting(object sender, EntityBeforeEventArgs e)
         {
             base.OnInserting(sender, e);
-            Entity entity = (Entity)sender;
-            UserConnection userConnection = entity.UserConnection;
+            //Entity entity = (Entity)sender;
+            //UserConnection userConnection = entity.UserConnection;
         }
         public override void OnInserted(object sender, EntityAfterEventArgs e)
         {
             base.OnInserted(sender, e);
-            Entity entity = (Entity)sender;
-            UserConnection userConnection = entity.UserConnection;
+            //Entity entity = (Entity)sender;
+            //UserConnection userConnection = entity.UserConnection;
         }
         #endregion
 
         #region Methods : Public : OnUpdate
-        public override void OnUpdating(object sender, EntityBeforeEventArgs e)
-        {
-            base.OnUpdating(sender, e);
-            Entity entity = (Entity)sender;
-            UserConnection userConnection = entity.UserConnection;
-        }
-        public override void OnUpdated(object sender, EntityAfterEventArgs e)
-        {
-            base.OnUpdated(sender, e);
-            Entity entity = (Entity)sender;
-            UserConnection userConnection = entity.UserConnection;
-        }
+        //public override void OnUpdating(object sender, EntityBeforeEventArgs e)
+        //{
+        //    base.OnUpdating(sender, e);
+        //    Entity entity = (Entity)sender;
+        //    UserConnection userConnection = entity.UserConnection;
+        //}
+        //public override void OnUpdated(object sender, EntityAfterEventArgs e)
+        //{
+        //    base.OnUpdated(sender, e);
+        //    Entity entity = (Entity)sender;
+        //    UserConnection userConnection = entity.UserConnection;
+        //}
         #endregion
 
         #region Methods : Public : OnDelete
-        public override void OnDeleting(object sender, EntityBeforeEventArgs e)
-        {
-            base.OnDeleting(sender, e);
-            Entity entity = (Entity)sender;
-            UserConnection userConnection = entity.UserConnection;
-        }
-        public override void OnDeleted(object sender, EntityAfterEventArgs e)
-        {
-            base.OnDeleted(sender, e);
-            Entity entity = (Entity)sender;
-            UserConnection userConnection = entity.UserConnection;
-        }
+        //public override void OnDeleting(object sender, EntityBeforeEventArgs e)
+        //{
+        //    base.OnDeleting(sender, e);
+        //    Entity entity = (Entity)sender;
+        //    UserConnection userConnection = entity.UserConnection;
+        //}
+        //public override void OnDeleted(object sender, EntityAfterEventArgs e)
+        //{
+        //    base.OnDeleted(sender, e);
+        //    Entity entity = (Entity)sender;
+        //    UserConnection userConnection = entity.UserConnection;
+        //}
         #endregion
 
         #endregion

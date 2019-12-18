@@ -84,9 +84,6 @@ clio restart -e NameOfYourEnvironment
 - Create event listener that will detect and handle overlapping activities with Entity Event Layer
 - [AutoNumbering](https://academy.creatio.com/documents/technic-sdk/7-15/how-add-auto-numbering-edit-page-field) Create event listener based on Event-SubProcess
 
-
-
-
 ## Tools
 - [Clio](https://github.com/Advance-Technologies-Foundation/clio) - CLI Library to create packages.
 - [Bpmonline.SDK](https://www.nuget.org/packages/BpmonlineSDK/) - Provides project template for development code for bpm'online platform.

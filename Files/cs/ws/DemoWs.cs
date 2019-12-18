@@ -31,7 +31,7 @@ namespace GuidedLearningClio
         [OperationContract]
         [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped,
         ResponseFormat = WebMessageFormat.Json)]
-        public string PostMethodName(dto person)
+        public string PostMethodName(Dto person)
         {
             UserConnection userConnection = UserConnection ?? SystemUserConnection;
 
@@ -73,7 +73,7 @@ namespace GuidedLearningClio
         #endregion
     }
 
-    public class dto {
+    public class Dto {
 
         public string FirstName { get; set; }
         public string LastName { get; set; }

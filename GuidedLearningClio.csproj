@@ -138,12 +138,11 @@
       <HintPath>packages\BpmonlineSDK.7.15.0.634\lib\net40\Terrasoft.Web.Http.Abstractions.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Files\cs\helpers\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Compile Include="Files\cs\el\ActivityEventListener.cs" />
     <Compile Include="Files\cs\el\ContactEventListener.cs" />
+    <Compile Include="Files\cs\helpers\MsgChannelUtilities.cs" />
     <Compile Include="Files\cs\ws\DemoWs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
