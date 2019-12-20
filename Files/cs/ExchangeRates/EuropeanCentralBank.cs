@@ -8,33 +8,13 @@ namespace GuidedLearningClio
 {
     public sealed class EuropeanCentralBank : IBank
     {
-        #region Enum
-        #endregion
-
-        #region Delegates
-        #endregion
-
-        #region Interface
-        #endregion
-
-        #region Struct
-        #endregion
-
-        #region Class
-        #endregion
-
+        
         #region Constants
         private const string baseUrl = @"https://sdw-wsrest.ecb.europa.eu/service";
         private const string resource = "data";
         private const string flowRef = "EXR";
         private const string homeCurrency = "EUR";
         private const string bankName = "European Central Bank";
-        #endregion
-
-        #region Fields
-        #endregion
-
-        #region Constructors
         #endregion
 
         #region Properties

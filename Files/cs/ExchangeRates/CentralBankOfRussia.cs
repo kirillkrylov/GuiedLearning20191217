@@ -33,7 +33,6 @@ namespace GuidedLearningClio
                 BankName = bankName
             };
 
-
             BasicHttpBinding binding = new BasicHttpBinding();
             EndpointAddress endPointAddress = new EndpointAddress("http://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx");
             DailyInfoSoap client = new DailyInfoSoapClient(binding, endPointAddress);

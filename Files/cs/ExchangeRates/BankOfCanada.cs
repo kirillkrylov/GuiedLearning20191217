@@ -18,19 +18,6 @@ namespace GuidedLearningClio
         private const string bankName = "Bank of Canada";
         #endregion
 
-        #region Fields
-        #endregion
-
-        #region Constructors
-        #endregion
-
-        #region Properties
-
-        #endregion
-
-        #region Events
-        #endregion
-
         #region Methods
         public async Task<IBankResult> GetRateAsync(string currency, DateTime date)
         {
