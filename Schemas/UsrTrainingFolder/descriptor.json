@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "4a4edefa-f765-46cd-b02d-0bbd3c84bf87",
+    "Name": "UsrTrainingFolder",
+    "ModifiedOnUtc": "\/Date(1576740873000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Training folder"
+  }
+}

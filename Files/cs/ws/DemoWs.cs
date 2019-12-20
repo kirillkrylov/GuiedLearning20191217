@@ -1,8 +1,7 @@
-﻿using System;
-using System.Net;
-using System.ServiceModel;
+﻿using System.ServiceModel;
 using System.ServiceModel.Activation;
 using System.ServiceModel.Web;
+using System.Threading;
 using Terrasoft.Core;
 using Terrasoft.Core.DB;
 using Terrasoft.Web.Common;
@@ -34,11 +33,23 @@ namespace GuidedLearningClio
         public string PostMethodName(Dto person)
         {
             UserConnection userConnection = UserConnection ?? SystemUserConnection;
-
+            
             string email = GetEmail(userConnection, person.FirstName);
             return email;
         }
-               
+
+
+        [OperationContract]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped,
+       ResponseFormat = WebMessageFormat.Json)]
+        public string socketSample(Dto person)
+        {
+            UserConnection userConnection = UserConnection ?? SystemUserConnection;
+            MsgChannelUtilities.PostMessageToAll(this.ToString(), "Sample message");
+            Thread.Sleep(5000);
+            return "Ok";
+        }
+
         [OperationContract]
         [WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, 
             BodyStyle = WebMessageBodyStyle.Wrapped, 
@@ -78,8 +89,6 @@ namespace GuidedLearningClio
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
-    
-
 }
 
 

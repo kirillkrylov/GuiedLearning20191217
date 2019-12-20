@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "e2e6c773-3b82-429a-9b0a-dd288646963b",
+    "Name": "UsrTrainingFile",
+    "ModifiedOnUtc": "\/Date(1576740872000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Training attachment"
+  }
+}

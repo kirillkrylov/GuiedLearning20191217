@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Training" />
+			<Item Name="Columns.UsrFirstName.Caption" Value="First Name" />
+			<Item Name="Columns.UsrLastName.Caption" Value="Last Name" />
+			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrSum.Caption" Value="Sum" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Training Participants" />
+			<Item Name="Columns.UsrContact.Caption" Value="Contact" />
+			<Item Name="Columns.UsrFee.Caption" Value="Fee" />
+			<Item Name="Columns.UsrTraining.Caption" Value="Training" />
+		</Items>
+	</Group>
+</Resources>
